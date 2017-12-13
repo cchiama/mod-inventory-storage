@@ -43,7 +43,7 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-    <ramlfiles_path>${basedir}/ramls/</ramlfiles_path>
+    <ramlfiles_path>${basedir}/ramls</ramlfiles_path>
     <argLine></argLine>
   </properties>
 
@@ -112,7 +112,7 @@
                 </systemProperty>
                 <systemProperty>
                   <key>raml_files</key>
-                  <value>${ramlfiles_path}</value>
+                  <value>${ramlfiles_path},${ramlfiles_path}/raml-util/ramls/codex</value>
                 </systemProperty>
               </systemProperties>
             </configuration>
