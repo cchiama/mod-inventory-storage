@@ -1,4 +1,37 @@
-## 11.0.0 Unreleased
+## 12.4.0 Unreleased
+
+* Item `status` now defaults to 'Available' (MODINVSTOR-137)
+
+## 12.3.0 2018-07-24
+
+* Add MARC JSON source record endpoint (MODINVSTOR-26)
+* Provides `instance-storage` interface 4.4 (MODINVSTOR-26)
+
+## 12.2.0 2018-07-16
+
+* Added locationIds array to service point (MODINVSTOR-127)
+* Provides `service-points` interface 2.1 (MODINVSTOR-127)
+
+## 12.1.0 2018-07-10
+
+* Upgrade RAML Module Builder to 19.1.5 (MODINVSTOR-128)
+
+## 12.0.0 2018-07-06
+
+* Upgrade RAML Module Builder to 19.1.3 (MODINVSTOR-126)
+* Provides v2.0 of instance-types, instance-formats, contributor-types (MODINVSTOR-115,-116,-123)
+* Add `source`, `code`, `metadata` to instance type (MODINVSTOR-115)
+* Add `source`, `code`, `metadata` to instance format (MODINVSTOR-116)
+* Add `source`, `code`, `metadata` to contributor type (MODINVSTOR-123)
+
+## 11.1.0 2018-06-25
+
+* Adds `temporaryLocationId` property to holdings records (MODINVSTOR-97)
+* Adds `permanentLocationId` property to item records (MODINVSTOR-97)
+* Provides `item-storage` interface 5.3 (MODINVSTOR-97)
+* Provides `holdings-storage` interface 1.3 (MODINVSTOR-97)
+
+## 11.0.0 2018-06-21
 
 * Removes `feeFineOwner` property from `service-points` record (MODINVSTOR-114)
 * Fix proxy registration for GET individual `service-point` in module descriptor (MODINVSTOR-110)
